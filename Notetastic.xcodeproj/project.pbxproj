@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7319F8286732D5EED4B48F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DB89A9D6E9D2434549DD68 /* libPods.a */; };
+		8557EDB019F5C54200E8655C /* defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8557EDAE19F5C54200E8655C /* defaultImage.png */; };
+		8557EDB119F5C54200E8655C /* defaultImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8557EDAF19F5C54200E8655C /* defaultImage@2x.png */; };
+		8557EDB419F5CB2300E8655C /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 8557EDB319F5CB2300E8655C /* Note.m */; };
+		855C27C819E2502F00C00FE9 /* searchIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 855C27C619E2502F00C00FE9 /* searchIcon@2x.png */; };
+		855C27C919E2502F00C00FE9 /* searchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 855C27C719E2502F00C00FE9 /* searchIcon.png */; };
+		8585E8EB19F9C1D000A91C7A /* NewNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8585E8EA19F9C1D000A91C7A /* NewNoteViewController.m */; };
+		85ADDE9619F62C370090F860 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADDE9519F62C370090F860 /* Data.m */; };
+		85C11D2C19FAABBF00808B39 /* cameraBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C11D2A19FAABBF00808B39 /* cameraBarIcon@2x.png */; };
+		85C11D2D19FAABBF00808B39 /* cameraBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C11D2B19FAABBF00808B39 /* cameraBarIcon.png */; };
+		85C14DC919E001CE00AC4392 /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C14DC819E001CE00AC4392 /* NoteDetailViewController.m */; };
+		85E6A20019F5B6FB003C3522 /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E6A1FF19F5B6FB003C3522 /* NoteTableViewCell.m */; };
 		85EFD57C19DFCF7E009E42E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFD57B19DFCF7E009E42E9 /* main.m */; };
 		85EFD57F19DFCF7E009E42E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFD57E19DFCF7E009E42E9 /* AppDelegate.m */; };
 		85EFD58219DFCF7E009E42E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFD58119DFCF7E009E42E9 /* ViewController.m */; };
 		85EFD58519DFCF7E009E42E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD58319DFCF7E009E42E9 /* Main.storyboard */; };
 		85EFD58719DFCF7E009E42E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD58619DFCF7E009E42E9 /* Images.xcassets */; };
-		85EFD58A19DFCF7E009E42E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD58819DFCF7E009E42E9 /* LaunchScreen.xib */; };
 		85EFD59619DFCF7E009E42E9 /* NotetasticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFD59519DFCF7E009E42E9 /* NotetasticTests.m */; };
+		85EFD5A519DFD0C5009E42E9 /* UIColor+BrandColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFD5A419DFD0C5009E42E9 /* UIColor+BrandColors.m */; };
+		85EFD5A819DFD128009E42E9 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFD5A719DFD128009E42E9 /* UIColor+Expanded.m */; };
+		85EFD5AB19DFD3AD009E42E9 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFD5AA19DFD3AD009E42E9 /* WelcomeViewController.m */; };
+		85EFD5B619DFF0E9009E42E9 /* brandLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD5B419DFF0E9009E42E9 /* brandLogo.png */; };
+		85EFD5B719DFF0E9009E42E9 /* brandLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD5B519DFF0E9009E42E9 /* brandLogo@2x.png */; };
+		85EFD5BD19DFF3EA009E42E9 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD5BC19DFF335009E42E9 /* Montserrat-Bold.ttf */; };
+		85EFD5BE19DFF3EA009E42E9 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD5B919DFF32A009E42E9 /* Lato-Bold.ttf */; };
+		85EFD5BF19DFF3EA009E42E9 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD5BA19DFF32A009E42E9 /* Lato-Light.ttf */; };
+		85EFD5C019DFF3EA009E42E9 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85EFD5BB19DFF32A009E42E9 /* Lato-Regular.ttf */; };
+		85F8B50B19E0C08C007F8A47 /* addIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F8B50919E0C08C007F8A47 /* addIcon.png */; };
+		85F8B50C19E0C08C007F8A47 /* addIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F8B50A19E0C08C007F8A47 /* addIcon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06DB89A9D6E9D2434549DD68 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5C608206C9285F0F8E6BDF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8557EDAE19F5C54200E8655C /* defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultImage.png; sourceTree = "<group>"; };
+		8557EDAF19F5C54200E8655C /* defaultImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultImage@2x.png"; sourceTree = "<group>"; };
+		8557EDB219F5CB2300E8655C /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		8557EDB319F5CB2300E8655C /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		855C27C619E2502F00C00FE9 /* searchIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchIcon@2x.png"; sourceTree = "<group>"; };
+		855C27C719E2502F00C00FE9 /* searchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchIcon.png; sourceTree = "<group>"; };
+		8585E8E919F9C1D000A91C7A /* NewNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewNoteViewController.h; sourceTree = "<group>"; };
+		8585E8EA19F9C1D000A91C7A /* NewNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewNoteViewController.m; sourceTree = "<group>"; };
+		85ADDE9419F62C370090F860 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		85ADDE9519F62C370090F860 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		85C11D2A19FAABBF00808B39 /* cameraBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraBarIcon@2x.png"; sourceTree = "<group>"; };
+		85C11D2B19FAABBF00808B39 /* cameraBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraBarIcon.png; sourceTree = "<group>"; };
+		85C14DC719E001CE00AC4392 /* NoteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailViewController.h; sourceTree = "<group>"; };
+		85C14DC819E001CE00AC4392 /* NoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewController.m; sourceTree = "<group>"; };
+		85E6A1FE19F5B6FB003C3522 /* NoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTableViewCell.h; sourceTree = "<group>"; };
+		85E6A1FF19F5B6FB003C3522 /* NoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewCell.m; sourceTree = "<group>"; };
 		85EFD57619DFCF7E009E42E9 /* Notetastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notetastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EFD57A19DFCF7E009E42E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85EFD57B19DFCF7E009E42E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,10 +76,24 @@
 		85EFD58119DFCF7E009E42E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85EFD58419DFCF7E009E42E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85EFD58619DFCF7E009E42E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		85EFD58919DFCF7E009E42E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		85EFD58F19DFCF7E009E42E9 /* NotetasticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotetasticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EFD59419DFCF7E009E42E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85EFD59519DFCF7E009E42E9 /* NotetasticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotetasticTests.m; sourceTree = "<group>"; };
+		85EFD5A319DFD0C5009E42E9 /* UIColor+BrandColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BrandColors.h"; sourceTree = "<group>"; };
+		85EFD5A419DFD0C5009E42E9 /* UIColor+BrandColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BrandColors.m"; sourceTree = "<group>"; };
+		85EFD5A619DFD128009E42E9 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		85EFD5A719DFD128009E42E9 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		85EFD5A919DFD3AD009E42E9 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		85EFD5AA19DFD3AD009E42E9 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		85EFD5B419DFF0E9009E42E9 /* brandLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brandLogo.png; sourceTree = "<group>"; };
+		85EFD5B519DFF0E9009E42E9 /* brandLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brandLogo@2x.png"; sourceTree = "<group>"; };
+		85EFD5B919DFF32A009E42E9 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		85EFD5BA19DFF32A009E42E9 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		85EFD5BB19DFF32A009E42E9 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		85EFD5BC19DFF335009E42E9 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		85F8B50919E0C08C007F8A47 /* addIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addIcon.png; sourceTree = "<group>"; };
+		85F8B50A19E0C08C007F8A47 /* addIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addIcon@2x.png"; sourceTree = "<group>"; };
+		E7BA2CBBB3EBDEE880C1C745 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7319F8286732D5EED4B48F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +115,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2AE63880162AF2042A104C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06DB89A9D6E9D2434549DD68 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8567CE9E19E0FDDA00BA2CF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8557EDB219F5CB2300E8655C /* Note.h */,
+				8557EDB319F5CB2300E8655C /* Note.m */,
+				85ADDE9419F62C370090F860 /* Data.h */,
+				85ADDE9519F62C370090F860 /* Data.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		85E33CD219DFF8680073D000 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				85E6A1FE19F5B6FB003C3522 /* NoteTableViewCell.h */,
+				85E6A1FF19F5B6FB003C3522 /* NoteTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		85EFD56D19DFCF7E009E42E9 = {
 			isa = PBXGroup;
 			children = (
 				85EFD57819DFCF7E009E42E9 /* Notetastic */,
 				85EFD59219DFCF7E009E42E9 /* NotetasticTests */,
 				85EFD57719DFCF7E009E42E9 /* Products */,
+				94C1DD12B1B955997C187F96 /* Pods */,
+				5D2AE63880162AF2042A104C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +166,18 @@
 		85EFD57819DFCF7E009E42E9 /* Notetastic */ = {
 			isa = PBXGroup;
 			children = (
+				8567CE9E19E0FDDA00BA2CF8 /* Classes */,
+				85E33CD219DFF8680073D000 /* Cells */,
+				85EFD5B819DFF322009E42E9 /* Fonts */,
+				85EFD5AF19DFDE5D009E42E9 /* Resources */,
+				85EFD5AC19DFD3B3009E42E9 /* View Controllers */,
+				85EFD59F19DFD04A009E42E9 /* Extensions */,
 				85EFD57D19DFCF7E009E42E9 /* AppDelegate.h */,
 				85EFD57E19DFCF7E009E42E9 /* AppDelegate.m */,
 				85EFD58019DFCF7E009E42E9 /* ViewController.h */,
 				85EFD58119DFCF7E009E42E9 /* ViewController.m */,
 				85EFD58319DFCF7E009E42E9 /* Main.storyboard */,
 				85EFD58619DFCF7E009E42E9 /* Images.xcassets */,
-				85EFD58819DFCF7E009E42E9 /* LaunchScreen.xib */,
 				85EFD57919DFCF7E009E42E9 /* Supporting Files */,
 			);
 			path = Notetastic;
@@ -119,6 +209,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		85EFD59F19DFD04A009E42E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85EFD5A619DFD128009E42E9 /* UIColor+Expanded.h */,
+				85EFD5A719DFD128009E42E9 /* UIColor+Expanded.m */,
+				85EFD5A319DFD0C5009E42E9 /* UIColor+BrandColors.h */,
+				85EFD5A419DFD0C5009E42E9 /* UIColor+BrandColors.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		85EFD5AC19DFD3B3009E42E9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85EFD5A919DFD3AD009E42E9 /* WelcomeViewController.h */,
+				85EFD5AA19DFD3AD009E42E9 /* WelcomeViewController.m */,
+				85C14DC719E001CE00AC4392 /* NoteDetailViewController.h */,
+				85C14DC819E001CE00AC4392 /* NoteDetailViewController.m */,
+				8585E8E919F9C1D000A91C7A /* NewNoteViewController.h */,
+				8585E8EA19F9C1D000A91C7A /* NewNoteViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		85EFD5AF19DFDE5D009E42E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85C11D2A19FAABBF00808B39 /* cameraBarIcon@2x.png */,
+				85C11D2B19FAABBF00808B39 /* cameraBarIcon.png */,
+				8557EDAE19F5C54200E8655C /* defaultImage.png */,
+				8557EDAF19F5C54200E8655C /* defaultImage@2x.png */,
+				855C27C619E2502F00C00FE9 /* searchIcon@2x.png */,
+				855C27C719E2502F00C00FE9 /* searchIcon.png */,
+				85F8B50919E0C08C007F8A47 /* addIcon.png */,
+				85F8B50A19E0C08C007F8A47 /* addIcon@2x.png */,
+				85EFD5B419DFF0E9009E42E9 /* brandLogo.png */,
+				85EFD5B519DFF0E9009E42E9 /* brandLogo@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		85EFD5B819DFF322009E42E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				85EFD5BC19DFF335009E42E9 /* Montserrat-Bold.ttf */,
+				85EFD5B919DFF32A009E42E9 /* Lato-Bold.ttf */,
+				85EFD5BA19DFF32A009E42E9 /* Lato-Light.ttf */,
+				85EFD5BB19DFF32A009E42E9 /* Lato-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		94C1DD12B1B955997C187F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BA2CBBB3EBDEE880C1C745 /* Pods.debug.xcconfig */,
+				4B5C608206C9285F0F8E6BDF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85EFD59919DFCF7E009E42E9 /* Build configuration list for PBXNativeTarget "Notetastic" */;
 			buildPhases = (
+				BAF058739B8CBF17887E4A8B /* Check Pods Manifest.lock */,
 				85EFD57219DFCF7E009E42E9 /* Sources */,
 				85EFD57319DFCF7E009E42E9 /* Frameworks */,
 				85EFD57419DFCF7E009E42E9 /* Resources */,
+				403677619A3DE450495E6BF4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +321,7 @@
 				TargetAttributes = {
 					85EFD57519DFCF7E009E42E9 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 355F5D99H9;
 					};
 					85EFD58E19DFCF7E009E42E9 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -199,8 +353,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EFD5BD19DFF3EA009E42E9 /* Montserrat-Bold.ttf in Resources */,
+				8557EDB019F5C54200E8655C /* defaultImage.png in Resources */,
+				85EFD5BE19DFF3EA009E42E9 /* Lato-Bold.ttf in Resources */,
+				85EFD5BF19DFF3EA009E42E9 /* Lato-Light.ttf in Resources */,
+				85EFD5C019DFF3EA009E42E9 /* Lato-Regular.ttf in Resources */,
 				85EFD58519DFCF7E009E42E9 /* Main.storyboard in Resources */,
-				85EFD58A19DFCF7E009E42E9 /* LaunchScreen.xib in Resources */,
+				85F8B50C19E0C08C007F8A47 /* addIcon@2x.png in Resources */,
+				85C11D2C19FAABBF00808B39 /* cameraBarIcon@2x.png in Resources */,
+				85EFD5B719DFF0E9009E42E9 /* brandLogo@2x.png in Resources */,
+				8557EDB119F5C54200E8655C /* defaultImage@2x.png in Resources */,
+				85EFD5B619DFF0E9009E42E9 /* brandLogo.png in Resources */,
+				85C11D2D19FAABBF00808B39 /* cameraBarIcon.png in Resources */,
+				855C27C919E2502F00C00FE9 /* searchIcon.png in Resources */,
+				855C27C819E2502F00C00FE9 /* searchIcon@2x.png in Resources */,
+				85F8B50B19E0C08C007F8A47 /* addIcon.png in Resources */,
 				85EFD58719DFCF7E009E42E9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +381,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		403677619A3DE450495E6BF4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF058739B8CBF17887E4A8B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85EFD57219DFCF7E009E42E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8557EDB419F5CB2300E8655C /* Note.m in Sources */,
 				85EFD58219DFCF7E009E42E9 /* ViewController.m in Sources */,
+				85EFD5A519DFD0C5009E42E9 /* UIColor+BrandColors.m in Sources */,
 				85EFD57F19DFCF7E009E42E9 /* AppDelegate.m in Sources */,
+				85C14DC919E001CE00AC4392 /* NoteDetailViewController.m in Sources */,
+				85ADDE9619F62C370090F860 /* Data.m in Sources */,
 				85EFD57C19DFCF7E009E42E9 /* main.m in Sources */,
+				85EFD5A819DFD128009E42E9 /* UIColor+Expanded.m in Sources */,
+				85EFD5AB19DFD3AD009E42E9 /* WelcomeViewController.m in Sources */,
+				8585E8EB19F9C1D000A91C7A /* NewNoteViewController.m in Sources */,
+				85E6A20019F5B6FB003C3522 /* NoteTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +458,6 @@
 				85EFD58419DFCF7E009E42E9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85EFD58819DFCF7E009E42E9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85EFD58919DFCF7E009E42E9 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,21 +541,29 @@
 		};
 		85EFD59A19DFCF7E009E42E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BA2CBBB3EBDEE880C1C745 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Notetastic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		85EFD59B19DFCF7E009E42E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5C608206C9285F0F8E6BDF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Notetastic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +620,7 @@
 				85EFD59B19DFCF7E009E42E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85EFD59C19DFCF7E009E42E9 /* Build configuration list for PBXNativeTarget "NotetasticTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +629,7 @@
 				85EFD59E19DFCF7E009E42E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
